@@ -14,7 +14,7 @@ class Square {
     rotSpeed = random(-.1, .1);
   }
 
-  void drawBall() {
+  void drawSquare() {
     rectMode(CENTER);
     pushMatrix();
     translate(xPos, yPos);
@@ -24,7 +24,7 @@ class Square {
     popMatrix();
   }
 
-  void moveBall() {
+  void moveSquare() {
     xPos+=xSpeed;
     yPos+=ySpeed;
     

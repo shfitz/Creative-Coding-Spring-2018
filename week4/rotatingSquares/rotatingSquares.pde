@@ -13,19 +13,19 @@ void setup() {
 
 void draw() {
   background(255);
-  mySquare0.drawBall();
-  mySquare0.moveBall();
+  mySquare0.drawSquare();
+  mySquare0.moveSquare();
   mySquare0.checkEdges();
 
-  mySquare1.drawBall();
-  mySquare1.moveBall();
+  mySquare1.drawSquare();
+  mySquare1.moveSquare();
   mySquare1.checkEdges();
 
-  mySquare2.drawBall();
-  mySquare2.moveBall();
+  mySquare2.drawSquare();
+  mySquare2.moveSquare();
   mySquare2.checkEdges();
 
-  mySquare3.drawBall();
-  mySquare3.moveBall();
+  mySquare3.drawSquare();
+  mySquare3.moveSquare();
   mySquare3.checkEdges();
 }
